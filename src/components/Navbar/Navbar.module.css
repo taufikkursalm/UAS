@@ -1,0 +1,38 @@
+/* Small Screen */
+.container {
+  background-color: #06D6A0;
+  padding: 1rem;
+  color: #ffffef;
+}
+
+.navbar__list {
+  list-style-type: none;
+}
+
+.navbar__item {
+  margin-bottom: 1rem;
+}
+
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  direction: row;
+}
+  
+.navbar__list {
+  flex-direction: row;
+  display: flex;
+}
+
+.navbar__item {
+  margin: 0 1rem;
+}
+}

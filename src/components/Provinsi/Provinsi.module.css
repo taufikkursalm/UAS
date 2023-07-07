@@ -1,0 +1,67 @@
+/* Small Screen */
+.container {
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.provinsi__titlegroup {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.provinsi__brand {
+  color: #06d6a0;
+}
+
+.provinsi__title {
+  color: #118ab2;
+}
+
+.provinsi__tablegroup {
+  overflow-x: auto;
+}
+
+.provinsi__table {
+  width: 80%;
+  max-width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  counter-reset: row-num -1;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.provinsi__th {
+  border: 1px solid #ddd;
+  padding: 10px 0 10px 0;
+  background-color: #006ea1;
+  color: #fff;
+}
+
+.provinsi__tr {
+  counter-increment: row-num;
+}
+
+.provinsi__tr:hover {
+  background-color: #ddd;
+}
+
+.provinsi__td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.provinsi__td:first-child::before {
+  content: counter(row-num);
+}
+
+.provinsi__td:first-child {
+  text-align: center;
+}
+
+.provinsi__titlegroup {
+  text-align: center;
+}

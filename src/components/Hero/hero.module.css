@@ -1,0 +1,59 @@
+/* Small Screen */
+.container {
+  margin: 1rem;
+}
+
+.hero__left {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero__title {
+  color: #06D6A0;
+  font-size: 2.5rem;
+}
+
+.hero__notes {
+  font-size: 1.2rem;
+  color: #118AB2;
+}
+
+.hero__description {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+.hero__button {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #06D6A0;
+  color: #fff;
+}
+
+.hero__image {
+  background-image: url(../Assets/img/logo.png);
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+.hero__left {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.hero__right {
+  flex-basis: 60%;
+}
+
+.hero {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+}
